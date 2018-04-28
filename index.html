@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./css/minireset.css">
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_637366_tmyqz4a34u04quxr.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_637366_tmyqz4a34u04quxr.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
@@ -30,9 +30,39 @@
                     <img src="./img/music1.jpg" alt="">
                 </div>
             </div>
-            <div class="tool"></div>
+            <div class="tool">
+                <audio controls id="M">
+                    <div>您的浏览器不支持该音乐播放器，请更换现代浏览器！</div>
+                    <source src="./audio/audio.mp3">
+                </audio>
+                <div class="controls">
+                    <div class="music-controls">
+                        <div></div>
+                        <!-- <i class="iconfont icon-last"></i> -->
+                        <div></div>
+                        <!-- <i class="iconfont icon-play"></i> -->
+                        <div></div>
+                        <!-- <i class="iconfont icon-next"></i> -->
+                    </div>
+                    <div class="time-controls">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="thunk">
+                        <div class="old"></div>
+                        <div class="point"></div>
+                    </div>
+                    <div class="list-controls">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="./js/common.js"></script>
+    <script src="./js/player.js"></script>
 </body>
 </html>
